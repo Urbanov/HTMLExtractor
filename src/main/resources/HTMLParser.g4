@@ -25,7 +25,7 @@ htmlElement
             "option", "output", "p", "picture", "pre", "progress", "q", "rp", "rt", "ruby", "s", "samp", "section", "select",
             "small", "span", "strike", "strong", "sub", "summary", "sup", "svg", "table", "tbody", "td","template", "textarea",
             "tfoot", "th", "thead", "time", "title", "tr", "tt", "u", "ul", "var", "video"
-        ).contains($ctx.start.getText())
+            ).contains($ctx.start.getText())
         }? htmlAttributes TAG_CLOSE htmlContent END_TAG_OPEN end=TAG_NAME TAG_CLOSE
         {
             $ctx.start.getText().equals($ctx.end.getText())

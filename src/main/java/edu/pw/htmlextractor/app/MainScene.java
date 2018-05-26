@@ -79,8 +79,8 @@ public class MainScene {
         filterSettings.getDialogPane().setContent(grid);
         filterSettings.setResultConverter(button -> {
             return button.equals(ButtonType.OK)
-            ? new Pair<>(ImmutableSet.of(tagsField.getText().split("\\s+")), ImmutableSet.of(attributesField.getText().split("\\s+")))
-            : null;
+                ? new Pair<>(ImmutableSet.of(tagsField.getText().split("\\s+")), ImmutableSet.of(attributesField.getText().split("\\s+")))
+                : null;
         });
 
         // events
