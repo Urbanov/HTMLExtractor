@@ -213,16 +213,16 @@ public class HTMLParser extends Parser {
 					setState(24);
 					if (!(
 					            Arrays.asList(
-					            "a", "author", "abbr", "address", "article", "aside", "audio", "b", "bdi", "bdo", "blockquote", "body", "button",
-					            "canvas", "caption", "center", "cite", "code", "colgroup", "data", "datalist", "dd", "del", "details", "dfn",
-					            "dialog", "dir", "div", "dl", "dt", "em", "fieldset", "figcaption", "figure", "font", "footer", "form", "frameset",
-					            "h1", "h2", "h3", "h4", "h5", "h6", "head", "header", "html", "i", "iframe", "ins", "kbd", "label", "legend", "li",
-					            "main", "map", "mark", "menu", "menuitem", "meter", "nav", "nobr", "noframes", "noscript", "object", "ol", "optgroup",
-					            "option", "output", "p", "picture", "pre", "progress", "q", "rp", "rt", "ruby", "s", "samp", "section", "select",
-					            "small", "span", "strike", "strong", "sub", "summary", "sup", "svg", "table", "tbody", "td","template", "textarea",
-					            "tfoot", "th", "thead", "time", "title", "tr", "tt", "u", "ul", "var", "video"
-					        ).contains(_localctx.start.getText())
-					        )) throw new FailedPredicateException(this, "\r\n            Arrays.asList(\r\n            \"a\", \"author\", \"abbr\", \"address\", \"article\", \"aside\", \"audio\", \"b\", \"bdi\", \"bdo\", \"blockquote\", \"body\", \"button\",\r\n            \"canvas\", \"caption\", \"center\", \"cite\", \"code\", \"colgroup\", \"data\", \"datalist\", \"dd\", \"del\", \"details\", \"dfn\",\r\n            \"dialog\", \"dir\", \"div\", \"dl\", \"dt\", \"em\", \"fieldset\", \"figcaption\", \"figure\", \"font\", \"footer\", \"form\", \"frameset\",\r\n            \"h1\", \"h2\", \"h3\", \"h4\", \"h5\", \"h6\", \"head\", \"header\", \"html\", \"i\", \"iframe\", \"ins\", \"kbd\", \"label\", \"legend\", \"li\",\r\n            \"main\", \"map\", \"mark\", \"menu\", \"menuitem\", \"meter\", \"nav\", \"nobr\", \"noframes\", \"noscript\", \"object\", \"ol\", \"optgroup\",\r\n            \"option\", \"output\", \"p\", \"picture\", \"pre\", \"progress\", \"q\", \"rp\", \"rt\", \"ruby\", \"s\", \"samp\", \"section\", \"select\",\r\n            \"small\", \"span\", \"strike\", \"strong\", \"sub\", \"summary\", \"sup\", \"svg\", \"table\", \"tbody\", \"td\",\"template\", \"textarea\",\r\n            \"tfoot\", \"th\", \"thead\", \"time\", \"title\", \"tr\", \"tt\", \"u\", \"ul\", \"var\", \"video\"\r\n        ).contains($ctx.start.getText())\r\n        ");
+					                "a", "author", "abbr", "address", "article", "aside", "audio", "b", "bdi", "bdo", "blockquote", "body", "button",
+					                "canvas", "caption", "center", "cite", "code", "colgroup", "data", "datalist", "dd", "del", "details", "dfn",
+					                "dialog", "dir", "div", "dl", "dt", "em", "fieldset", "figcaption", "figure", "font", "footer", "form", "frameset",
+					                "h1", "h2", "h3", "h4", "h5", "h6", "head", "header", "html", "i", "iframe", "ins", "kbd", "label", "legend", "li",
+					                "main", "map", "mark", "menu", "menuitem", "meter", "nav", "nobr", "noframes", "noscript", "object", "ol", "optgroup",
+					                "option", "output", "p", "picture", "pre", "progress", "q", "rp", "rt", "ruby", "s", "samp", "section", "select",
+					                "small", "span", "strike", "strong", "sub", "summary", "sup", "table", "tbody", "td","template", "textarea", "tfoot",
+					                "th", "thead", "time", "title", "tr", "tt", "u", "ul", "var", "video"
+					            ).contains(_localctx.start.getText())
+					        )) throw new FailedPredicateException(this, "\r\n            Arrays.asList(\r\n                \"a\", \"author\", \"abbr\", \"address\", \"article\", \"aside\", \"audio\", \"b\", \"bdi\", \"bdo\", \"blockquote\", \"body\", \"button\",\r\n                \"canvas\", \"caption\", \"center\", \"cite\", \"code\", \"colgroup\", \"data\", \"datalist\", \"dd\", \"del\", \"details\", \"dfn\",\r\n                \"dialog\", \"dir\", \"div\", \"dl\", \"dt\", \"em\", \"fieldset\", \"figcaption\", \"figure\", \"font\", \"footer\", \"form\", \"frameset\",\r\n                \"h1\", \"h2\", \"h3\", \"h4\", \"h5\", \"h6\", \"head\", \"header\", \"html\", \"i\", \"iframe\", \"ins\", \"kbd\", \"label\", \"legend\", \"li\",\r\n                \"main\", \"map\", \"mark\", \"menu\", \"menuitem\", \"meter\", \"nav\", \"nobr\", \"noframes\", \"noscript\", \"object\", \"ol\", \"optgroup\",\r\n                \"option\", \"output\", \"p\", \"picture\", \"pre\", \"progress\", \"q\", \"rp\", \"rt\", \"ruby\", \"s\", \"samp\", \"section\", \"select\",\r\n                \"small\", \"span\", \"strike\", \"strong\", \"sub\", \"summary\", \"sup\", \"table\", \"tbody\", \"td\",\"template\", \"textarea\", \"tfoot\",\r\n                \"th\", \"thead\", \"time\", \"title\", \"tr\", \"tt\", \"u\", \"ul\", \"var\", \"video\"\r\n            ).contains($ctx.start.getText())\r\n        ");
 					setState(25);
 					htmlAttributes();
 					setState(26);
@@ -642,15 +642,15 @@ public class HTMLParser extends Parser {
 		case 0:
 			return 
 		            Arrays.asList(
-		            "a", "author", "abbr", "address", "article", "aside", "audio", "b", "bdi", "bdo", "blockquote", "body", "button",
-		            "canvas", "caption", "center", "cite", "code", "colgroup", "data", "datalist", "dd", "del", "details", "dfn",
-		            "dialog", "dir", "div", "dl", "dt", "em", "fieldset", "figcaption", "figure", "font", "footer", "form", "frameset",
-		            "h1", "h2", "h3", "h4", "h5", "h6", "head", "header", "html", "i", "iframe", "ins", "kbd", "label", "legend", "li",
-		            "main", "map", "mark", "menu", "menuitem", "meter", "nav", "nobr", "noframes", "noscript", "object", "ol", "optgroup",
-		            "option", "output", "p", "picture", "pre", "progress", "q", "rp", "rt", "ruby", "s", "samp", "section", "select",
-		            "small", "span", "strike", "strong", "sub", "summary", "sup", "svg", "table", "tbody", "td","template", "textarea",
-		            "tfoot", "th", "thead", "time", "title", "tr", "tt", "u", "ul", "var", "video"
-		        ).contains(_localctx.start.getText())
+		                "a", "author", "abbr", "address", "article", "aside", "audio", "b", "bdi", "bdo", "blockquote", "body", "button",
+		                "canvas", "caption", "center", "cite", "code", "colgroup", "data", "datalist", "dd", "del", "details", "dfn",
+		                "dialog", "dir", "div", "dl", "dt", "em", "fieldset", "figcaption", "figure", "font", "footer", "form", "frameset",
+		                "h1", "h2", "h3", "h4", "h5", "h6", "head", "header", "html", "i", "iframe", "ins", "kbd", "label", "legend", "li",
+		                "main", "map", "mark", "menu", "menuitem", "meter", "nav", "nobr", "noframes", "noscript", "object", "ol", "optgroup",
+		                "option", "output", "p", "picture", "pre", "progress", "q", "rp", "rt", "ruby", "s", "samp", "section", "select",
+		                "small", "span", "strike", "strong", "sub", "summary", "sup", "table", "tbody", "td","template", "textarea", "tfoot",
+		                "th", "thead", "time", "title", "tr", "tt", "u", "ul", "var", "video"
+		            ).contains(_localctx.start.getText())
 		        ;
 		case 1:
 			return 

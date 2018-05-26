@@ -17,14 +17,14 @@ htmlElement
     : TAG_OPEN start=TAG_NAME (
         {
             Arrays.asList(
-            "a", "author", "abbr", "address", "article", "aside", "audio", "b", "bdi", "bdo", "blockquote", "body", "button",
-            "canvas", "caption", "center", "cite", "code", "colgroup", "data", "datalist", "dd", "del", "details", "dfn",
-            "dialog", "dir", "div", "dl", "dt", "em", "fieldset", "figcaption", "figure", "font", "footer", "form", "frameset",
-            "h1", "h2", "h3", "h4", "h5", "h6", "head", "header", "html", "i", "iframe", "ins", "kbd", "label", "legend", "li",
-            "main", "map", "mark", "menu", "menuitem", "meter", "nav", "nobr", "noframes", "noscript", "object", "ol", "optgroup",
-            "option", "output", "p", "picture", "pre", "progress", "q", "rp", "rt", "ruby", "s", "samp", "section", "select",
-            "small", "span", "strike", "strong", "sub", "summary", "sup", "svg", "table", "tbody", "td","template", "textarea",
-            "tfoot", "th", "thead", "time", "title", "tr", "tt", "u", "ul", "var", "video"
+                "a", "author", "abbr", "address", "article", "aside", "audio", "b", "bdi", "bdo", "blockquote", "body", "button",
+                "canvas", "caption", "center", "cite", "code", "colgroup", "data", "datalist", "dd", "del", "details", "dfn",
+                "dialog", "dir", "div", "dl", "dt", "em", "fieldset", "figcaption", "figure", "font", "footer", "form", "frameset",
+                "h1", "h2", "h3", "h4", "h5", "h6", "head", "header", "html", "i", "iframe", "ins", "kbd", "label", "legend", "li",
+                "main", "map", "mark", "menu", "menuitem", "meter", "nav", "nobr", "noframes", "noscript", "object", "ol", "optgroup",
+                "option", "output", "p", "picture", "pre", "progress", "q", "rp", "rt", "ruby", "s", "samp", "section", "select",
+                "small", "span", "strike", "strong", "sub", "summary", "sup", "table", "tbody", "td","template", "textarea", "tfoot",
+                "th", "thead", "time", "title", "tr", "tt", "u", "ul", "var", "video"
             ).contains($ctx.start.getText())
         }? htmlAttributes TAG_CLOSE htmlContent END_TAG_OPEN end=TAG_NAME TAG_CLOSE
         {
