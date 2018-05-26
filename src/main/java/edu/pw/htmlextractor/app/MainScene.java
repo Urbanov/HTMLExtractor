@@ -72,9 +72,9 @@ public class MainScene {
         tagsField.setPrefWidth(400);
         TextField attributesField = new TextField();
         attributesField.setPrefWidth(400);
-        grid.add(new Label("Selected tags (separated by space):"), 0, 0);
+        grid.add(new Label("Selected tags (separated by spaces):"), 0, 0);
         grid.add(tagsField, 1, 0);
-        grid.add(new Label("Selected attributes (separated by space):"), 0, 1);
+        grid.add(new Label("Selected attributes (separated by spaces):"), 0, 1);
         grid.add(attributesField, 1, 1);
         filterSettings.getDialogPane().setContent(grid);
         filterSettings.setResultConverter(button -> {
