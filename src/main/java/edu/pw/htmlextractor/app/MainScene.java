@@ -15,6 +15,7 @@ import org.fxmisc.flowless.VirtualizedScrollPane;
 import org.fxmisc.richtext.CodeArea;
 import org.fxmisc.richtext.LineNumberFactory;
 
+import java.io.File;
 import java.util.*;
 
 public class MainScene {
@@ -51,6 +52,7 @@ public class MainScene {
         // dialog windows
         FileChooser fileChooser = new FileChooser();
         fileChooser.setTitle("Load file");
+        fileChooser.setInitialDirectory(new File(System.getProperty("user.dir")));
         fileChooser.getExtensionFilters().addAll(new FileChooser.ExtensionFilter("HTML Sources", "*.html"));
 
         TextInputDialog urlChooser = new TextInputDialog();
