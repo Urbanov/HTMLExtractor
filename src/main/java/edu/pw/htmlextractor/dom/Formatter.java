@@ -26,11 +26,12 @@ public final class Formatter {
             .filter(attribute -> filter.checkAttribute(attribute.getKey()))
             .map(attribute -> " " + attribute.getKey() + (Optional.ofNullable(attribute.getValue()).isPresent()
                 ? "=" + attribute.getValue()
+                    .trim()
+                    .replaceAll("\\s+", " ")
+                    .replaceAll("^\" | \"$", "\"")
+                    .replaceAll("^' | '$", "'")
                 : ""))
-            .collect(Collectors.joining())
-            .replace("\"\n", "")
-            .replace("\n\"", "")
-            .replace('\n', ' '));
+            .collect(Collectors.joining()));
     }
 
     private static void print(Tag tag, StringBuilder buffer, Filter filter, int level) {
